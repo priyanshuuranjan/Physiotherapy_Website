@@ -1,0 +1,30 @@
+.last-sample {
+  font: size 17px;
+  background-color: #f7ebe5;
+  width: 100%;
+  height: 250px;
+}
+.features {
+  background-color: #f7ebe5;
+}
+.sample {
+  font-size: 60px;
+
+  height: 75px;
+  color: #21494f;
+}
+.sample1 {
+  color: #d47a54;
+  font-size: 28px;
+}
+.btn {
+  background-color: #ddd;
+  border: 1px solid #21494f;
+  color: black;
+  padding: 10px 20px;
+
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}

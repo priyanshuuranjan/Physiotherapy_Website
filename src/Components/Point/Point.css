@@ -1,0 +1,26 @@
+
+.features1 {
+  color: #21494f;
+  font-size: 60px;
+  text-align: center;
+}
+.features2 {
+  color: #d47a54;
+  font-size: 26px;
+  
+}
+.features3 {
+  margin-top: 20px;
+}
+.features-left {
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+/* font-family: "Titillium web", sans-serif; */
+}
+

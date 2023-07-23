@@ -1,23 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
+import "./Components/Navbar/Navbar.css";
+import "./Components/Hero/Hero.css";
+import Hero from "./Components/Hero/Hero";
+import Point from "./Components/Point/Point";
+import "./Components/Point/Point.css";
+import Feature from "./Components/Feature/Feature";
+import "./Components/Feature/Feature.css";
+import Footer from "./Components/Footer-Section/Footer";
+import "./Components/Footer-Section/Footer.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Page404 from "./Components/Error/Page404";
+import About from "./Components/About-Us/About";
+import Contact from "./Components/Contact-Page/Contact";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Navbar />
+
+        <Routes>
+          <Route
+            exact
+            path="/"
+            element={
+              <>
+                <Hero />
+                <Point />
+                <Feature />
+                <Footer />
+              </>
+            }
+          ></Route>
+          <Route exact path="/" element={<Page404 />} />
+          <Route exact path="/about" element={<About />}></Route>
+          <Route exact path="/contact" element={<Contact />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
