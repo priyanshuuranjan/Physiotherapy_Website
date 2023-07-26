@@ -1,4 +1,4 @@
-
+/* 
 
 .navbar-scroll {
   background-color: #FFC017;
@@ -8,4 +8,38 @@
 .navbar-brand {
   font-size: unset;
   height: 3.5rem;
+}
+
+
+.logo {
+  height: 65px; 
+} */
+
+/* Navbar styling */
+.navbar {
+  background-color: #dfc57e; 
+  height: 80px; 
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+ 
+  margin-right: 10px; 
+  max-width: 200px;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    height: 60px; /* Adjust the height for smaller screens */
+  }
+  
+  .logo {
+    margin-right: 10px; 
+  max-width: 150px;
+  margin-top: -50px;
+  }
 }

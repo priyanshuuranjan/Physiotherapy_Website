@@ -17,33 +17,30 @@ export default function Footer() {
                 injuries, back pain management, stroke, and cerebral-palsy.
               </p>
               <div className="footer-icons">
-               
-            
                 <a
-                  href="https://www.instagram.com/your_account_name/"
-                  target="blank"
+                  href="https://www.instagram.com/priyanshu_singh45/"
+                  target={"blank"}
                 >
-                   <i className="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-facebook"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/your_account_name/"
-                  target="blank"
+                  href="https://www.instagram.com/priyanshu_singh45/"
+                  target={"blank"}
                 >
-                      <i className="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/your_account_name/"
-                  target="blank"
+                  href="https://www.instagram.com/priyanshu_singh45/"
+                  target={"blank"}
                 >
                   <i className="fa-brands fa-instagram"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/your_account_name/"
-                  target="blank"
+                  href="https://www.instagram.com/priyanshu_singh45/"
+                  target={"blank"}
                 >
                   <i className="fa-brands fa-linkedin-in"></i>
                 </a>
-                
               </div>
             </div>
             <div className="col-md-6 col-lg-3 col-12 ft-2">

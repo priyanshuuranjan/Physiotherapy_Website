@@ -13,6 +13,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Page404 from "./Components/Error/Page404";
 import About from "./Components/About-Us/About";
 import Contact from "./Components/Contact-Page/Contact";
+// import Testimonial from "./Components/Testimonial/Testimonial";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                 <Hero />
                 <Point />
                 <Feature />
+                {/* <Testimonial /> */}
                 <Footer />
               </>
             }
