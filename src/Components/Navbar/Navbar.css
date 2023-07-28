@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 500px) {
   .navbar {
-    height: 60px; /* Adjust the height for smaller screens */
+    height: 60px; /* Adjust the height for smaller screens... */
   }
 
   .logo {
